@@ -1,0 +1,7 @@
+
+@import "../cache/image_data";
+
+#something {
+  width: image-width('test.png');
+  background-image: image-url('test.png');
+}
